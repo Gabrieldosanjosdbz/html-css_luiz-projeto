@@ -1,0 +1,79 @@
+.container_main{
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    color: white;
+}
+
+.container_main h1{
+    font-size: 60px;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
+}
+
+.container_servicos{
+    display: flex;  
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    font-family: 'Futura Display', sans-serif;
+    font-size: 31.5px;
+    letter-spacing: 1px;
+}
+
+/* ensaio */
+
+.ensaio{ 
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    background-color: white;
+    padding: 5px 80px;
+    border-radius: 20px;
+    color: black;
+}
+
+.ensaio p{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+}
+
+.ensaio span{
+    position: relative;
+    right: 12px;
+}
+
+/* Video */
+
+.video {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    background-color: white;
+    padding: 5px 80px;
+    border-radius: 20px;
+    color: black;
+}
+
+.video p {
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px; /* Ajuste a largura conforme necessário */
+}
+
+.video .seu{
+    margin-left: 10px;
+}
+
+.video .seta {
+    position: relative;
+    left: 12px;
+    padding: 0;
+    margin: 0;
+}
