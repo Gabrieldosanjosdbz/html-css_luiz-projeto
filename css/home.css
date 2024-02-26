@@ -1,6 +1,6 @@
 .home_main{
     display: flex;
-    height: 600px;
+    height: 80vh;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+
 }
 
 .container_menu ul li{
@@ -36,7 +37,7 @@
 .container_menu ul li a{
     letter-spacing: 1px;
     font-family: 'Futura Display', sans-serif;
-    font-size: 200%;
+    font-size: 3vw;
     font-weight: bold;
 }
 
@@ -67,7 +68,7 @@
 .container_title p{
     text-align: center;
     font-family: 'Futura Display', sans-serif;
-    font-size: 25px;
+    font-size: 1.5vw;
     padding-left: 60px;
     margin-top: -60px;
 }
