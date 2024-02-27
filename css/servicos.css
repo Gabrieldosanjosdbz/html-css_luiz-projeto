@@ -1,79 +1,54 @@
-.container_main{
-    display: flex;
-    flex-flow: wrap column;
-    align-items: center;
-    color: white;
+h1{
+    text-align: center;
+    color: #fff;
 }
 
-.container_main h1{
-    font-size: 60px;
-    font-family: 'Futura Display', sans-serif;
-    letter-spacing: 1px;
-}
-
-.container_servicos{
-    display: flex;  
-    justify-content: center;
-    gap: 20px;
-    width: 50%;
-    font-family: 'Futura Display', sans-serif;
+p{
     font-size: 31.5px;
-    letter-spacing: 1px;
+    width: 81px;
 }
 
-/* ensaio */
+img{
+    height: 500px;
+    width: 333px;   
+}
 
-.ensaio{ 
+.main_container{
     display: flex;
-    justify-content: center;
-    width: 100px;
-    position: relative;
-    background-color: white;
-    padding: 5px 80px;
-    border-radius: 20px;
-    color: black;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
 }
 
-.ensaio p{
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 90px;
-}
-
-.ensaio span{
-    position: relative;
-    right: 12px;
-}
-
-/* Video */
-
-.video {
+.container_servico{
     display: flex;
+    flex-flow: wrap row;
     justify-content: center;
-    width: 100px;
-    position: relative;
-    background-color: white;
-    padding: 5px 80px;
-    border-radius: 20px;
-    color: black;
+    align-items: center;
 }
 
-.video p {
+.container_servico div{ 
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    border: 2px solid white;
+    height: 161px;
+    width: 150px;
+}
+
+.container_video{
+    display: flex;
+    flex-flow: wrap row;
     justify-content: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 90px; /* Ajuste a largura conforme necessário */
+    align-items: center;
 }
 
-.video .seu{
-    margin-left: 10px;
-}
-
-.video .seta {
-    position: relative;
-    left: 12px;
-    padding: 0;
-    margin: 0;
+.container_video div{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    border: 2px solid white;
+    height: 161px;
+    width: 150px;   
 }
