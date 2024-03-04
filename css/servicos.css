@@ -1,22 +1,47 @@
-h1{
+.title_servico{
     text-align: center;
     color: #fff;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-family: 'Futura Display', sans-serif;
 }
 
-p{
+.container_servico div p{
     font-size: 31.5px;
     width: 81px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
 }
 
-img{
-    height: 500px;
+.container_video div p{
+    font-size: 31.5px;
+    width: 81px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
+}
+
+.main_container div{
+    border-radius: 20px;
+    margin: 0px 20px;
+    background-color: white;
+}
+
+img {
+    height: 100%;  
     width: 333px;   
+    border-radius: 30px;
+    height: 450px;
+    margin-bottom: 30px;
 }
 
 .main_container{
     display: flex;
     flex-flow: wrap row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: #fff;
 }
