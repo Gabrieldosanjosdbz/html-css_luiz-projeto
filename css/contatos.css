@@ -1,0 +1,45 @@
+.title_contatos{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
+    margin: 50px 0px;
+}
+
+.main_contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midia{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: 'Futura Display', sans-serif;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.midia p{
+    margin-bottom: 25px;
+}
+
+.midia hr{
+    border: 10px solid white;
+    border-radius: 20px;
+}   
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon img{
+    width: 48px;
+    height: 48px;
+    border-radius: 0px;
+}

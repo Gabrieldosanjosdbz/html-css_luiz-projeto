@@ -10,7 +10,7 @@ a {
 }
 
 body {
-    background-image: url("../img/fundo_carro.jpeg");
+    background-image: url("../imgs/fundo_carro.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%; /* Cobrir 100% da largura e altura do corpo */
     background-attachment: fixed;

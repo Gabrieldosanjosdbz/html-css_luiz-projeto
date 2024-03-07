@@ -1,0 +1,39 @@
+.title_portfolio{
+    text-align: center;
+    color: white;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin: 50px 0px;
+}
+
+.main_portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+
+.portfolio_cars{
+    display: flex;
+    flex-flow: column wrap;
+    color: black;
+    font-size: 30.3px;
+    letter-spacing: 1px;
+    font-family: 'Futura Display', sans-serif;
+    align-items: center;
+}
+
+.portfolio_cars img{
+    width: 200px; 
+    height: 300px;
+}
+
+.portfolio_cars div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
