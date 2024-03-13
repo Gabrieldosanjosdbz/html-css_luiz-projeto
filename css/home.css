@@ -73,4 +73,50 @@
     padding-left: 90px;
     margin-top: -60px;
 }
+
+/* Responsividade celular */
+@media screen and (max-width: 600px){
+    .home_main{
+        flex-direction: column;
+        border: 1px solid white;
+        height: 100%;
+        width: 100%;
+    }
+
+    .container_menu{
+        order: 1;
+    }
+
+    .container_title{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        margin: auto;
+        padding: 0px;
+
+        order: 0;
+        font-size: 307px;
+    }
+
+    .container_title p{
+        font-size: 30px;
+        margin-top: -65px;
+        margin-bottom: 60px;
+    }
+
+    .container_menu{
+        margin: auto;
+        width: 700px;
+    }
+
+    .container_menu ul{
+        height: 500px;
+        font-size: 52px;
+    }
+    .container_menu ul li a{
+        font-size: 42px;
+    }
+
     
+}
