@@ -2,8 +2,38 @@
     text-align: center;
     color: white;
     font-family: 'Futura Display', sans-serif;
-    letter-spacing: 1px;
-    font-size: 60px;
+    letter-spacing: 2px;
+    font-size: 80px;
     margin: 50px 0px;
 }
 
+.main_parceiros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.parceiros{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;    
+    border-radius: 40px;
+}
+
+.parceiros_lasanha{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.parceiros img{
+
+}

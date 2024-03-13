@@ -1,0 +1,58 @@
+.title_sobre{
+    text-align: end;
+    font-size: 60px;
+    font-family: 'Futura Display', sans-serif;
+    color: white;
+    margin: 40px 50px 20px 50px;
+    letter-spacing: 2px;;   
+}
+
+.main_sobre{
+    display: flex;
+}
+
+.img_about{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_about img{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.text_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    font-size: 20px;
+    font-family: 'Open Sauce Sans', sans-serif;
+    color: white;
+}
+
+.text_about p{
+    margin-right: 50px;
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.convite{
+    position: relative;
+    width: 100%
+}
+
+.convite h2{
+    margin-right: 50px;
+    position: absolute;
+    right: 1px;
+    text-align: end;
+    width: 620px;
+    font-family: 'Futura Display', sans-serif;
+    font-size: 29px;
+    letter-spacing: 2px;
+
+}
