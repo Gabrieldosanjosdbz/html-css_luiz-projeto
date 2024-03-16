@@ -9,7 +9,7 @@
 
 .main_portfolio{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }   
 
@@ -21,6 +21,8 @@
     letter-spacing: 1px;
     font-family: 'Futura Display', sans-serif;
     align-items: center;
+    margin-bottom: 20px;
+    
 }
 
 .portfolio_cars img{
@@ -37,3 +39,17 @@
     border-radius: 20px;
     background-color: white;
 }
+
+.mocadoo{
+    width: 200px; 
+    height: 300px; 
+    background-color: white; 
+    border-radius: 20px;
+}
+
+/* responsividade para celular */
+    .portfolio_cars img, .mocadoo{
+    width: 150px; 
+    height: 250px;
+}
+

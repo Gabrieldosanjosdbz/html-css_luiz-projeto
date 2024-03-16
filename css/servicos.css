@@ -36,6 +36,13 @@ img {
     margin-bottom: 30px;
 }
 
+.mocado{
+    height: 550px; 
+    width: 333px;
+    background-color: white;
+    border-radius: 30px;
+}
+
 .main_container{
     display: flex;
     flex-flow: wrap row;
@@ -74,4 +81,42 @@ img {
     border: 2px solid white;
     height: 161px;
     width: 150px;   
+}
+
+
+@media screen and (max-width: 600px) {
+    .main_container {
+        flex-flow: column;
+    }
+
+    img {
+        margin-left: 10px;
+        height: auto; /* Ajuste a altura automaticamente */
+        width: 50%; /* Faça as imagens ocuparem toda a largura disponível */
+        border-radius: 20px;
+        margin-bottom: 15px; /* Reduza o espaçamento entre as imagens */
+
+    }
+
+    .container_servico div,
+    .container_video div{
+        height: auto; /* Ajuste a altura automaticamente */
+        width: 30%; /* Faça as divs ocuparem 90% da largura disponível */
+        max-width: 250px; /* Defina uma largura máxima */
+        margin: 0 auto; /* Centralize as divs horizontalmente */
+    }
+
+    .container_video{
+        width: 100%;
+    }
+
+    .mocado{
+        margin-right: 10px;
+        height: 300px; /* Ajuste a altura automaticamente */
+        width: 50%; /* Faça as imagens ocuparem toda a largura disponível */
+        border-radius: 20px;
+        margin-bottom: 15px; /* Reduza o espaçamento entre as imagens */
+    }
+
+    
 }

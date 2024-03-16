@@ -35,6 +35,12 @@
     height: 400px;
 }
 
-.parceiros img{
+/* responsividade para celular */
 
+@media screen and (max-width: 600px){
+    .main_parceiros{
+        flex-direction: column;
+
+    }
+    
 }
