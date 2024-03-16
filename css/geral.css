@@ -19,7 +19,7 @@ body {
 
 @font-face {
     font-family: 'barosa regular';
-    src: url('../fonts/Barosa\ Regular.otf') format('otf');  
+    src: url('../fonts/Barosa Regular.otf') format('otf');  
 
     font-weight: normal;
     font-style: normal;
@@ -27,7 +27,7 @@ body {
 
 @font-face {
     font-family: 'Futura Display';
-    src: url('../fonts/Futura\ Display.ttf') format('ttf');
+    src: url('../fonts/Futura Display.ttf') format('ttf');
     /* Adicione outras variações e formatos de fonte, se necessário */
     font-weight: normal;
     font-style: normal;
