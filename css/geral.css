@@ -14,30 +14,30 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%; /* Cobrir 100% da largura e altura do corpo */
     background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
 }
 
 
 @font-face {
     font-family: 'barosa regular';
-    src: url('../fonts/Barosa Regular.otf') format('otf');  
-
+    src: url('../fonts/Barosa Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Futura Display';
-    src: url('../fonts/Futura Display.ttf') format('ttf');
-    /* Adicione outras variações e formatos de fonte, se necessário */
+    src: url('../fonts/Futura Display.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sauce Sans';
-    src: url('../fonts/OpenSauceSans-Regular.ttf') format('ttf');
-    /* Adicione outras variações e formatos de fonte, se necessário */
+    src: url('../fonts/OpenSauceSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 
