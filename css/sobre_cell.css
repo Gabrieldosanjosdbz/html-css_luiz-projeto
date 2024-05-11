@@ -1,0 +1,70 @@
+.main_cell{
+    margin: 2%;
+}
+
+.title_cell{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 2px; 
+}
+
+.section_cell{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.img_text{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.img_cell img{
+    width: 150px;
+    height: 100%;
+}
+
+.text_cell1 {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    height: 100%;   
+    font-size: 13px;
+    font-family: 'Open Sauce Sans', sans-serif;
+}
+
+.text_convite{
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+
+    margin: 0px 10px;
+}
+
+.text_cell2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    font-family: 'Open Sauce Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+.convite_cell{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 2px; 
+}
+

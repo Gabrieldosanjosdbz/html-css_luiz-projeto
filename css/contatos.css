@@ -11,8 +11,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
     width: 100%;
-    height: 100%;
+}
+
+.section_contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     justify-content: center;
 }
 
@@ -25,8 +33,9 @@
     margin-bottom: 40px;
 }
 
-.midia p{
+.midia p, .link_social{
     margin-bottom: 25px;
+    color: white;
 }
 
 .midia hr{
@@ -46,3 +55,17 @@
     height: 48px;
     border-radius: 0px;
 }
+
+/* responsividade para computador grande */
+@media screen and (min-width: 1650px){
+    .title_contatos{
+        font-size: 80px;
+    }
+
+    .midia{
+        font-size: 52px;
+    }
+
+}
+
+/* responsividade para celular */

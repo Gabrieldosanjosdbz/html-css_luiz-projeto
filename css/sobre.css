@@ -4,13 +4,12 @@
     font-family: 'Futura Display', sans-serif;
     color: white;
     margin: 40px 50px 0px 0px;
-    letter-spacing: 2px;;   
+    letter-spacing: 2px; 
 }
 
-.main_sobre{
+.section_sobre{
     display: flex;
     width: 100%;
-    height: 100%;
 }
 
 .img_about{
@@ -20,8 +19,8 @@
 }
 
 .img_about img{
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 600px;
     margin-bottom: 20px;
     margin-top: 0px;
 }
@@ -31,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     width: 55%;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Open Sauce Sans', sans-serif;
     color: white;
 }
@@ -56,4 +55,42 @@
     font-family: 'Futura Display', sans-serif;
     font-size: 29px;
     letter-spacing: 2px;
+}
+
+/* responsividade para computador grande */
+
+@media screen and (min-width: 1650px){
+
+    .title_sobre{
+        font-size: 70px;
+    }
+
+    .main_sobre{
+        height: 100%;
+    }
+
+    .img_about img{
+        width: 500px;
+        height: 700px;
+    }
+
+    .text_about{
+        font-size: 30px;
+    }
+
+    .convite h2{
+        font-size: 39px;
+        width: 720px;
+    }
+}
+
+/* responsividade para celular  */
+/* responsividade para celular */
+@media screen and (max-width: 600px) {
+    /* Suas regras CSS existentes */
+
+    /* Adiciona um identificador para o estilo JavaScript */
+    #redirectScript {
+        display: none; /* Mantém o script oculto */
+    }
 }

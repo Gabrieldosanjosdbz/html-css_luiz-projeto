@@ -4,14 +4,24 @@
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;
     font-size: 60px;
+    margin-bottom: 50px;
 }
 
 .main_portfolio{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.section_portfolio{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 100%;
-    height: 100%;
     align-items: center;
 }   
 
@@ -49,9 +59,32 @@
     border-radius: 20px;
 }
 
-/* responsividade para celular */
-    .portfolio_cars img, .mocadoo{
-    width: 150px; 
-    height: 250px;
+/* responsividade para computador grande  */
+@media screen and (min-width: 1650px){
+    .portfolio_cars > img, .portfolio_cars > .mocadoo{
+        width: 300px; 
+        height: 400px;
+    }
+
+    .title_portfolio{
+        font-size: 80px
+    }
 }
 
+/* responsividade para celular */
+@media screen and (max-width: 600px) {
+
+    .title_portfolio{
+        font-size: 40px;
+        margin: 30px;
+    }
+
+    .portfolio_cars img, .mocadoo{
+        width: 130px; 
+        height: 230px;
+    } 
+
+    .main_portfolio{
+        height: auto;
+    }
+}
