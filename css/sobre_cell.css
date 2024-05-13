@@ -20,7 +20,7 @@
 .img_text{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 30px;
 }
 
