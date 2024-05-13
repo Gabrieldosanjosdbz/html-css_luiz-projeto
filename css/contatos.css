@@ -39,8 +39,10 @@
 }
 
 .midia hr{
-    border: 10px solid white;
-    border-radius: 20px;
+    background-image: linear-gradient(to right, transparent, white, transparent);
+    height: 3px; /* altura da linha */
+    border: none; /* remova a borda padrão */
+    margin: 10px 0; /* margem superior e inferior para espaçamento */   
 }   
 
 .icon{

@@ -1,5 +1,5 @@
 .main_cell{
-    margin: 2%;
+    margin: 20px;
 }
 
 .title_cell{
@@ -27,6 +27,7 @@
 .img_cell img{
     width: 150px;
     height: 100%;
+    margin: 0px;
 }
 
 .text_cell1 {
@@ -36,7 +37,7 @@
     gap: 30px;
     
     height: 100%;   
-    font-size: 13px;
+    font-size: 12px;
     font-family: 'Open Sauce Sans', sans-serif;
 }
 
@@ -44,8 +45,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px; 
-
-    margin: 0px 10px;
 }
 
 .text_cell2{
@@ -58,11 +57,11 @@
     font-size: 13px;
 }
 
-
 .convite_cell{
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 100;
 
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 2px; 

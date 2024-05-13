@@ -7,19 +7,19 @@
 }
 
 .container_servico div p{
+    text-align: center;
     font-size: 31.5px;
     width: 81px;
-    color: black;
-    font-weight: bold;
+    color: white;
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;
 }
 
 .container_video div p{
+    text-align: center;
     font-size: 31.5px;
     width: 81px;
-    color: black;
-    font-weight: bold;
+    color: white;
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;
 }
@@ -27,7 +27,6 @@
 .main_servicos div{
     border-radius: 20px;
     margin: 0px 20px;
-    background-color: white;
 }
 
 img {
