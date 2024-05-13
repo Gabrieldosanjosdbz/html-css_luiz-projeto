@@ -9,7 +9,7 @@
 .container_servico div p{
     text-align: center;
     font-size: 31.5px;
-    width: 81px;
+    width: 100%;
     color: white;
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;
@@ -18,7 +18,7 @@
 .container_video div p{
     text-align: center;
     font-size: 31.5px;
-    width: 81px;
+    width: 100%;
     color: white;
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;

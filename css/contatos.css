@@ -71,3 +71,8 @@
 }
 
 /* responsividade para celular */
+@media screen and (max-width: 600px){
+    .title_contatos{
+        font-size: 40px;
+    }
+}
