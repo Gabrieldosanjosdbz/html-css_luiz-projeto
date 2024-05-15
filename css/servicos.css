@@ -4,6 +4,8 @@
     font-size: 60px;
     letter-spacing: 1px;
     font-family: 'Futura Display', sans-serif;
+
+    animation: aparicao 1s forwards;
 }
 
 .container_servico div p{
@@ -39,6 +41,7 @@
 .main_servicos div{
     border-radius: 20px;
     margin: 0px 20px;
+    
 }
 
 img {
@@ -60,6 +63,7 @@ img {
     align-items: center;
     justify-content: center;
     
+    
 }
 
 .section_container{
@@ -69,6 +73,7 @@ img {
     align-items: center;
     color: #fff;
     width: 100%;
+    
 }
 
 .container_servico{
@@ -76,6 +81,8 @@ img {
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
+
+    animation: aparicao 1s forwards;
 }
 
 .container_servico div{ 
@@ -92,6 +99,8 @@ img {
     flex-flow: wrap row;
     justify-content: center;
     align-items: center;
+
+    animation: aparicao 1s forwards;
 }
 
 .container_video div{
@@ -153,5 +162,8 @@ img {
         margin-bottom: 15px; /* Reduza o espaçamento entre as imagens */
     }
 
+    .container_video, .container_servico, .title_servico {
+        animation: celular 1s forwards;
+    }
     
 }

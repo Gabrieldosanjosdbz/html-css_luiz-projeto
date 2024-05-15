@@ -5,6 +5,8 @@
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;
     margin: 50px 0px;
+
+    animation: aparicao 1s forwards;
 }
 
 .main_contatos{
@@ -31,6 +33,8 @@
     font-family: 'Futura Display', sans-serif;
     width: 80%;
     margin-bottom: 40px;
+
+    animation: aparicao 1s forwards;
 }
 
 .midia p, .link_social{
@@ -74,5 +78,9 @@
 @media screen and (max-width: 600px){
     .title_contatos{
         font-size: 40px;
+    }
+
+    .midia, .title_contatos{
+        animation: celular 1s forwards;
     }
 }

@@ -5,6 +5,8 @@
     color: white;
     margin: 40px 50px 0px 0px;
     letter-spacing: 2px; 
+
+    animation: aparicao 1s forwards;
 }
 
 .section_sobre{
@@ -16,6 +18,8 @@
     width: 45%;
     display: flex;
     justify-content: center;
+
+    animation: aparicao 1s forwards;
 }
 
 .img_about img{
@@ -33,17 +37,21 @@
     font-size: 25px;
     font-family: 'Open Sauce Sans', sans-serif;
     color: white;
+
 }
 
 .text_about p{
     margin-right: 50px;
     margin-bottom: 30px;
     text-align: end;
+
+    animation: aparicao 1s forwards;
 }
 
 .convite{
     position: relative;
     width: 100%;
+
 }
 
 .convite h2{
@@ -55,6 +63,8 @@
     font-family: 'Futura Display', sans-serif;;
     font-size: 29px;
     letter-spacing: 2px;
+
+    animation: aparicao 1s forwards;
 }
 
 /* responsividade para computador grande */

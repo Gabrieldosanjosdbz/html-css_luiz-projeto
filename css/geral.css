@@ -18,6 +18,32 @@ body {
     height: 100vh;
 }
 
+/* animação */
+@keyframes aparicao {
+    0% {opacity: 0; transform: translate(0px, 0px)}     /* dentro do @keyframes temos que colocar o  tempo e depois a propriedade */
+    100% {opacity: 1; transform: translate(20px, 0px)}
+}   
+
+/* animação home*/
+@keyframes aparicao-home1 {
+    0% {opacity: 0; transform: translate(0px, 0px)}     /* dentro do @keyframes temos que colocar o  tempo e depois a propriedade */
+    100% {opacity: 1; transform: translate(0px, 40px)}
+} 
+
+@keyframes aparicao-home2 {
+    0% {opacity: 0; transform: translate(0px, 0px)}  
+    50% {opacity: 0; transform: translate(0px, 40px)}  
+    100% {opacity: 1; transform: translate(0px, 0px)}
+}
+
+/* animação celular */
+@keyframes celular {
+    0% {opacity: 0; transform: translate(0px, 0px)}     /* dentro do @keyframes temos que colocar o  tempo e depois a propriedade */
+    100% {opacity: 1; transform: translate(auto, 0px)}
+}   
+
+/* midia query */
+
 @media screen and (max-width: 600px) {
     body {
         background-image: url("../imgs/fundo_celular.jpeg");
