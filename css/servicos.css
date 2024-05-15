@@ -24,6 +24,18 @@
     letter-spacing: 1px;
 }
 
+.container_servico div:hover, .container_video div:hover {
+    background-color: white;
+    
+    transition: background-color 1s;
+}
+
+.container_servico div:hover p, .container_video div:hover p{
+    color: black;
+    
+    transition: color 1s;
+}
+
 .main_servicos div{
     border-radius: 20px;
     margin: 0px 20px;
@@ -90,6 +102,8 @@ img {
     height: 161px;
     width: 150px;   
 }
+
+
 
 /* responsividade para computador grande */
 @media screen and (min-width: 1650px) {

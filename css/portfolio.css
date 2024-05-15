@@ -28,14 +28,16 @@
 .portfolio_cars{
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.portfolio_cars a{
     color: white;
     font-size: 30.3px;
     letter-spacing: 1px;
     font-family: 'Futura Display', sans-serif;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    
 }
 
 .portfolio_cars img{
@@ -51,6 +53,18 @@
     height: 50px;
     border-radius: 20px;
     border: 2px solid white;
+}
+
+.portfolio_cars div:hover{
+    background-color: white;
+
+    transition: background-color 1s;
+}
+
+.portfolio_cars div:hover a{
+    color: black;
+
+    transition: color 1s;
 }
 
 .mocadoo{
