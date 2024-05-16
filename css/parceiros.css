@@ -15,7 +15,6 @@
     justify-content: center;
     
     width: 100%;
-    height: 100%;
 }
 
 .section_parceiros{
@@ -48,6 +47,11 @@
 }
 
 /* responsividade para computador grande */
+@media screen and (min-width: 1650px){
+    .main_parceiros{
+        height: 100%;
+    }
+}
 
 /* responsividade para celular */
 
