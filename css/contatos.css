@@ -42,7 +42,7 @@
     color: white;
 }
 
-.midia hr{
+.hr{
     background-image: linear-gradient(to right, transparent, white, transparent);
     height: 3px; /* altura da linha */
     border: none; /* remova a borda padrão */

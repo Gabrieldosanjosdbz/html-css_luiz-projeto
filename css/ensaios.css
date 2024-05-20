@@ -1,0 +1,55 @@
+.title_ensaios{
+    text-align: center;
+    color: white;
+    font-family: 'Futura Display', sans-serif;
+    letter-spacing: 1px;
+    font-size: 60px;
+    margin-bottom: 50px;
+
+    animation: aparicao 1s forwards;
+}
+
+.fotos_ensaios{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fotos_ensaios section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotos_ensaios div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    gap: 30px;
+}
+
+.fotos_ensaios div [data] {
+    width: 0;
+    height: 0;
+    object-fit: cover;
+}
+
+.fotos_ensaios div [src]{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+/* responsividade para celular */
+@media screen and (max-width: 600px){
+    .fotos_ensaios section div img{
+        width: 150px;
+        height: 231px;
+    }
+}
+
