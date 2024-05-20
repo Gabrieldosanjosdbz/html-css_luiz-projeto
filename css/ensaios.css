@@ -1,55 +1,75 @@
-.title_ensaios{
+.title_ensaios {
     text-align: center;
     color: white;
     font-family: 'Futura Display', sans-serif;
     letter-spacing: 1px;
     font-size: 60px;
     margin-bottom: 50px;
-
     animation: aparicao 1s forwards;
 }
 
-.fotos_ensaios{
+.fotos_ensaios {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.fotos_ensaios section{
+.fotos_ensaios section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.fotos_ensaios div{
+.fotos_ensaios div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
     gap: 30px;
 }
 
-.fotos_ensaios div [data] {
-    width: 0;
-    height: 0;
-    object-fit: cover;
-}
-
-.fotos_ensaios div [src]{
+.placeholder-container {
+    position: relative;
     width: 300px;
     height: 450px;
-    object-fit: cover;
-    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* responsividade para celular */
-@media screen and (max-width: 600px){
-    .fotos_ensaios section div img{
+.placeholder-container .placeholder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0; /* Cor de fundo do placeholder */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa; /* Cor do texto "Loading..." */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.placeholder-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.placeholder-container img[src] {
+    opacity: 1;
+}
+
+/* Responsividade para celular */
+@media screen and (max-width: 600px) {
+    .placeholder-container {
         width: 150px;
         height: 231px;
     }
 }
-
