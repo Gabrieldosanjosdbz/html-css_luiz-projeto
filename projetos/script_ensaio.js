@@ -1,3 +1,11 @@
+setTimeout(() => {
+    // Remove a classe de carregamento para mostrar o conteúdo principal
+    document.body.classList.remove('loading');
+    // Oculta a página de carregamento
+    document.querySelector('.loading-overlay').style.display = 'none';
+}, 3000)
+
+
 const lazyLoading = () => {
     const listaElementos = document.querySelectorAll("img[data]");
 
